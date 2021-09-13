@@ -8,6 +8,18 @@ body {
     background: url("parchment.jpeg");
 }
 
+img {
+    max-width: 480px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'MedievalSharp', cursive;
+    letter-spacing: 5px;
+    margin: 20px auto;
+}
+
 .container {
     min-width: 500px;
     text-align: center;
@@ -16,7 +28,7 @@ body {
 
 #dicewrapper {
     width: 500px;
-    margin: 20px auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -36,7 +48,7 @@ body {
 }
 
 button {
-    margin-top: 15px;
+    margin-top: 5px;
     margin-bottom: 30px;
     padding: 10px 25px;
     border-radius: 10px;
@@ -55,18 +67,14 @@ button:focus {
     opacity: 1;
   }
 
-h1 {
-    text-align: center;
-    font-size: 60px;
-    font-family: 'MedievalSharp', cursive;
-    letter-spacing: 5px;
-    margin: 20px auto;
-}
-
-img {
-    max-width: 500px;
-}
-
 .active {
     box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
+
+#reset {
+    font-size: smaller;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    letter-spacing: 5px;
 }
