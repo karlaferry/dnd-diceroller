@@ -9,6 +9,7 @@ body {
 }
 
 img {
+    margin-top: 35px;
     max-width: 480px;
 }
 
@@ -17,7 +18,8 @@ h1 {
     font-size: 60px;
     font-family: 'MedievalSharp', cursive;
     letter-spacing: 5px;
-    margin: 20px auto;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 .container {
@@ -40,7 +42,7 @@ h1 {
     width: 100px;
     height: 100px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 10px 15px;
     font-size: 80px;
     text-align: center;
     font-family: 'MedievalSharp', cursive;
@@ -48,7 +50,7 @@ h1 {
 }
 
 button {
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 30px;
     padding: 10px 25px;
     border-radius: 10px;
@@ -77,4 +79,5 @@ button:focus {
     background-color: black;
     color: white;
     letter-spacing: 5px;
+    margin: 0;
 }
