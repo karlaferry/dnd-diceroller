@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: url("parchment.jpeg");
+}
+
+.container {
+    min-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+#dicewrapper {
+    width: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.dice {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'MedievalSharp', cursive;
+    text-shadow: 2px 2px #dd1f26;
+}
+
+button {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    background-color: #746941;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+button:hover,
+button:focus {
+    opacity: 1;
+  }
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'MedievalSharp', cursive;
+    letter-spacing: 5px;
+    margin: 20px auto;
+}
+
+img {
+    max-width: 500px;
+}
+
+.active {
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
